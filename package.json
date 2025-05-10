@@ -1,0 +1,22 @@
+{
+  "name": "grammyjs-vercel-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon -e ts -w src --exec ts-node src/index.ts",
+    "build": "npx ts-node scripts/build.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "grammy": "^1.36.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
